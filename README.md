@@ -28,5 +28,10 @@
   <h3><b>Demo</b></h3>
   <img src="https://github.com/adityaguptai/Self-Driving-Car-/raw/master/self_driving_car_gif.gif">
 
-
+<h3><b> Model Training and Evaluation</b></h3>
+<ul>
+<li>I've splitted the data into 80% training set and 20% validation set to measure the performance after each epoch.</li>
+<li>I used Mean Squared Error (MSE) as a loss function to measure how close the model predicts to the given steering angle for each input frame.</li>
+<li>I used the Adaptive Moment Estimation (Adam) Algorithm minimize to the loss function. Adam is an optimization algorithm introduced by D. Kingma and J. Lei Ba in a 2015 paper named Adam: A Method for Stochastic Optimization. Adam algorithm computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients like Adadelta and RMSprop algorithms, Adam also keeps an exponentially decaying average of past gradients mtmt, similar to momentum algorithm, which in turn produce better results.</li>
+<li>I used ModelCheckpoint from Keras to check the validation loss after each epoch and save the model only if the validation loss reduced.</li>
 
