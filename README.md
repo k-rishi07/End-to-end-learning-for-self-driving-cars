@@ -1,5 +1,5 @@
 # End-to-end-learning-for-self-driving-cars
-<h3><b>Approach-01  : Self Driving Car (End to End CNN/Dave-2)</b></h3>
+<h3><b>Approach-01  : Self Driving Car (End-to-End CNN/Dave-2)</b></h3>
 <img src="https://camo.githubusercontent.com/7b34f1caec74578997546bd706e8dc1e76a302d905567bfc22657e3e009f385f/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3836382f302a37645265715158456c6e6548425755722e6a7067">
 
 <ul>
